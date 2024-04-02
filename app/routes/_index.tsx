@@ -20,21 +20,23 @@ export default function Index() {
     recipe;
 
   return (
-    <div className="bg-eggshell size-full flex justify-center sm:py-[120px] sm:px-[80px]">
-      <RecipeCard>
-        <RecipeImage src={img} />
-        <RecipeOverview name={name} desc={desc} />
-        <RecipePrepTime
-          total={preparation.total}
-          prep={preparation.preparation}
-          cooking={preparation.cooking}
-        />
-        <RecipeIngredients ingredients={ingredients} />
-        <Separator />
-        <RecipeInstructions instructions={instructions} />
-        <Separator />
-        <RecipeNutrition nutrition={nutrition} />
-      </RecipeCard>
-    </div>
+    <main>
+      <div className="bg-eggshell size-full flex justify-center sm:py-[120px] sm:px-[80px]">
+        <RecipeCard>
+          <RecipeImage src={img} />
+          <RecipeOverview name={name} desc={desc} />
+          <RecipePrepTime
+            total={preparation.total}
+            prep={preparation.preparation}
+            cooking={preparation.cooking}
+          />
+          <RecipeIngredients ingredients={ingredients} />
+          <Separator />
+          <RecipeInstructions instructions={instructions} />
+          <Separator />
+          <RecipeNutrition nutrition={nutrition} />
+        </RecipeCard>
+      </div>
+    </main>
   );
 }
