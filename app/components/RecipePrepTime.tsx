@@ -9,9 +9,9 @@ interface Props {
 const RecipePrepTime: React.FC<Props> = ({ total, prep, cooking }) => {
   return (
     <div className="rounded-xl w-full p-7 bg-rosewhite mb-8">
-      <span className="text-darkraspberry text-xl mb-4 font-medium">
+      <h2 className="text-darkraspberry text-xl mb-4 font-medium">
         Preparation time
-      </span>
+      </h2>
       <ul className="list-disc list-inside indent-1 text-wengebrown marker:text-darkraspberry marker:text-xs pl-0.5">
         <li className="mb-2">
           <span className="font-bold pl-4">Total: </span>

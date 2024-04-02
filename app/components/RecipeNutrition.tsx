@@ -31,7 +31,7 @@ const RecipeNutrition: React.FC<Props> = ({ nutrition }) => {
         {entries.map(([key, value], index) => (
           <React.Fragment>
             <div className="grid grid-cols-2">
-              <span className="capitalize">{key}</span>
+              <span className="capitalize text-wengebrown">{key}</span>
               <span className="text-nutmeg font-medium">{value}</span>
             </div>
             {index !== entries.length - 1 && (
