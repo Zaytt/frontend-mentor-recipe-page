@@ -20,7 +20,7 @@ export default function Index() {
     recipe;
 
   return (
-    <div className="bg-eggshell size-full flex justify-center sm:p-20 p-0">
+    <div className="bg-eggshell size-full flex justify-center sm:py-[120px] sm:px-[80px]">
       <RecipeCard>
         <RecipeImage src={img} />
         <RecipeOverview name={name} desc={desc} />
