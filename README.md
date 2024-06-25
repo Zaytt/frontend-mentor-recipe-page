@@ -1,36 +1,45 @@
-# Welcome to Remix + Vite!
+# Frontend Mentor - Recipe page solution
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
+## Welcome! 👋
 
-## Development
+This is a solution to the [Recipe page challenge](https://www.frontendmentor.io/solutions/ivan-chavez-recipe-page-_wbe6Ylo1t) challenge for [frontendmentor.io](https://www.frontendmentor.io).
 
-Run the Vite dev server:
+## Table of contents
 
-```shellscript
-npm run dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-## Deployment
+## Overview
 
-First, build your app for production:
+### The challenge
 
-```sh
-npm run build
-```
+Users should be able to:
 
-Then run the app in production mode:
+- View the optimal layout for the site depending on their device's screen size
 
-```sh
-npm start
-```
+### Links
 
-Now you'll need to pick a host to deploy it to.
+- [Solution](https://www.frontendmentor.io/solutions/ivan-chavez-recipe-page-_wbe6Ylo1t)
+- [Live Site](https://frontend-mentor-recipe-page-beta.vercel.app/)
 
-### DIY
+## My process
 
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
+### Built with
 
-Make sure to deploy the output of `npm run build`
+- [Remix](https://remix.run/) - JS library
+- [React](https://reactjs.org/) - JS library
+- [Tailwind CSS](https://tailwindcss.com/) - Popular Styling Library
 
-- `build/server`
-- `build/client`
+### What I learned
+
+I used this project to play around with Remix.
+
+## Author
+
+- Website - [Ivan Chavez](https://www.ivanchavez.dev/)
+- Frontend Mentor - [@Zaytt](https://www.frontendmentor.io/profile/Zaytt)
